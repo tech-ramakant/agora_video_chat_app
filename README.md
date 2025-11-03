@@ -189,16 +189,6 @@ Handled gracefully with permission requests and fallbacks.
 Each feature layer is testable:
 - Repositories are mock-friendly
 - Use-case layer supports dependency injection
-- UI tests run using `flutter test` and `widget_test.dart`
-
----
-
-## 💡 Future Enhancements
-- Push notifications for incoming video calls (via Firebase)
-- Real backend integration (Auth + Chime/Agora token service)
-- Advanced offline handling with Hive or SQLite
-- Dynamic meeting room creation (not hardcoded)
-- Dark theme support
 
 ---
 
