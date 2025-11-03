@@ -112,7 +112,7 @@ final authNotifierProvider =
 In `VideoCallRepositoryImpl`:
 ```dart
 await _engine.initialize(const RtcEngineContext(
-  appId: 'YOUR_AGORA_APP_ID',
+  appId: AppConstants.AGORA_API_ID,
   channelProfile: ChannelProfileType.channelProfileCommunication,
 ));
 ```
